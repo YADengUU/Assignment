@@ -6,7 +6,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(119deg, #ffc4c4, #ff5f5f);
     padding: 10px;
 }
 
@@ -14,8 +14,10 @@ body {
     box-sizing: border-box;
     width: 100%;
     max-width: 540px;
-    background: #fff;
-    margin: 150px auto 20px;
+    /* background: #fff; */
+    opacity: 0.8;
+    box-shadow: 1px 1px 20px 0px #fff;
+    margin: 100px auto 20px;
     padding: 40px 20px 70px;
     border-radius: 10px;
 }
@@ -37,7 +39,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
-    border-radius: 20px;
+    border-radius: 40px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
@@ -52,7 +54,7 @@ input {
 
 button {
     border: none;
-    outline: npne;
+    outline: none;
     padding: 16px 40px;
     background: #ff5945;
     color: #fff;
